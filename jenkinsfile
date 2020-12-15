@@ -4,8 +4,7 @@ pipeline{
         stage('1'){
             steps{
                 script{
-                    git credentialsId: 'GIT', url: 'https://github.com/ROOT7884/gameoflife.git'
-                }
+                    git credentialsId: 'GIT', url: 'https://github.com/ROOT7884/TESST2.git'                }
             }
         }
         stage('2'){
